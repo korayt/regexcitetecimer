@@ -6,19 +6,21 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of regexcitetecimer is to …
+The goal of regexcitetecimer is to create a dummy R package
 
 ## Installation
 
 You can install the development version of regexcitetecimer like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("korayt/regexcitetecimer")
 ```
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
+str_split_one(x, pattern = ",")
 
 ``` r
 library(regexcitetecimer)
